@@ -239,7 +239,7 @@ li {
             flex-direction: column;
             transform: translateX(100%);
             transition: transform 0.5s ease-in;
-            overflow-x: hidden;
+            overflow: hidden;
         }
 
          .nav_right {
@@ -255,7 +255,8 @@ li {
             cursor: pointer;
         }
        
-        .col2 img {width: 100%;   
+        .col2 img {
+            width: 376px;   
         }
     
         
