@@ -1,4 +1,3 @@
-
 :root{
     /* Primary */
     --darkBlue: hsl(233, 26%, 24%);
@@ -192,7 +191,7 @@ li {
 
 .burger div {
     display: none;
-    width: 45px;
+    width: 45px; 
     height: 2px;
     margin: 6px;
     background-image: url(images/icon-hamburger.svg);
@@ -209,16 +208,19 @@ li {
     align-items: center;
 }
 
+
+
     @media screen and (max-width: 768px) {
 
         .nav-links {
             /* height: 300px; */
             width: 90vw;
+            height:40vh;
             display: flex;
             background-color: var(--white);
             position: absolute;
-            top: 8vh;
-            left: 5%;
+            top: 10vh;
+            left: 5%; 
             line-height: 38px;
             justify-content: center;
             align-items: center;
@@ -325,6 +327,11 @@ li {
 
 .intro-off {
     display: none;
+}
+
+.burger-cancel {
+    background-repeat: no-repeat;
+    background-image: url(images/icon-close.svg);
 }
 
 
